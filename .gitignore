@@ -1,0 +1,25 @@
+# Dependecy directories
+
+node_modules/
+
+# Coverage tools
+coverage/
+
+# Database queries
+data/
+
+# Distribution Files
+**/dist/*
+
+# Environment Files
+*.env
+
+# VSCode Config Files (keep launch.json)
+
+!.vscode/launch.json
+.vscode/*
+
+!/data/auth
+
+# Mac OS metadata
+*.DS_Store
